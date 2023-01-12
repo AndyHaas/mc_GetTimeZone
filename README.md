@@ -1,18 +1,13 @@
-# Salesforce DX Project: Next Steps
+# Get the Time Zone information for any Address
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Using the Google TimeZone API End Point this Invocable Action will allow you to make a request and get the dstOffset, rawOffset, TimeZoneId, and the TimeZone Name. 
 
-## How Do You Plan to Deploy Your Changes?
+# Setup and Configuration
+1. Add Remote Site 
+- Add https://maps.googleapis.com as a remote site
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+2. Sign up for a Google Platorm to get the Maps API Key
+- https://developers.google.com/maps/documentation/timezone/get-started
 
-## Configure Your Salesforce DX Project
+3. Enable Data Integration Rules within in Salesforce Setup for the fields that you want to use. We require a Latitude and Longitude to make the request
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
