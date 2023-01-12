@@ -11,3 +11,8 @@ Using the Google TimeZone API End Point this Invocable Action will allow you to 
 
 3. Enable Data Integration Rules within in Salesforce Setup for the fields that you want to use. We require a Latitude and Longitude to make the request
 
+Production Install
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000NqumAAC 
+
+Sandbox/Developer Install
+https://test.salesforce.com/packaging/installPackage.apexp?p0=04t5e000000NqumAAC 
