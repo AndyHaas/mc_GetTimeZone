@@ -1,4 +1,4 @@
-# Get the Time Zone information for any Address
+# Get the Time Zone information from any Address
 
 Using the Google TimeZone API End Point this Invocable Action will allow you to make a request and get the dstOffset, rawOffset, TimeZoneId, and the TimeZone Name. 
 
