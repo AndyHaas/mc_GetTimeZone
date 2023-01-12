@@ -48,7 +48,7 @@ public with sharing class mc_GetTimeZone {
         @InvocableVariable(required=true)
         public string longitude;
         @InvocableVariable(required=true)
-        public string googleApiKey; //AIzaSyDOm24SgTniMD6elU_CQ0SZpIq0NP7nPj0
+        public string googleApiKey;
     }
 
     public class Results {
